@@ -29,7 +29,7 @@ myAnswer.addEventListener('keydown',(evt)=>{
       numberofassignment++;
       correctanswers++;
       assingmentnumber.innerHTML = numberofassignment;
-
+      //sums.push(myAnswer);
       waiting();
       makesum();
 
@@ -41,15 +41,16 @@ myAnswer.addEventListener('keydown',(evt)=>{
       numberofassignment++;
       assingmentnumber.innerHTML = numberofassignment;
       incorrectanswers++;
+    //  sums.push(myAnswer);
       waiting();
       makesum();
     }
     for (let i = 0; i < sums.length; i++){
-      sumsText += sums[i] + "\n";
+      sumsText += sums[i] + "<br>";
     }
     if (numberofassignment > 10) {
-      alert("correctanswers = " + correctanswers +"\nincorrectanswers = " + incorrectanswers + "\n" + sumsText
-    );
+      array.innerHTML = "correctanswers = " + correctanswers +"<br> incorrectanswers = " + incorrectanswers + "<br>" + sumsText;
+
 
 
 
