@@ -1,0 +1,19 @@
+
+body{
+  background-color: LemonChiffon;
+}
+.wrapper{
+  background-color: blue;
+  border: 4px dashed black;
+  border-radius: 18px;
+  width: 800px;
+  margin: auto;
+  text-align: center;
+}
+#myassignmemt{
+  font-size: 30px;
+  font-style:"Comic Sans MS", cursive, sans-serif;
+}
+#answer{
+  margin: auto;
+}
